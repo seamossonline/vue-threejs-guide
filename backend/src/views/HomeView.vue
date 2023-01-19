@@ -34,6 +34,10 @@
      <p>johndoe@gmail.com</p>
    </TextContainer>
  </div>
+
+ <div id="scene-container">
+      <!-- Three.js canvas will be inserted here -->
+ </div>
 </template>
 
 <script lang="ts">
