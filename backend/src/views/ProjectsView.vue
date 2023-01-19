@@ -1,10 +1,13 @@
 //Projects.vue
 <template>
   <div class="projects-section">This is the Projects view</div>
+  <Showcase></Showcase>
 </template>
 
 <script>
-export default {};
+import Showcase from '@/components/Showcase.vue';
+
+export default { components: { Showcase } };
 </script>
 
 <style lang="scss" scoped>
